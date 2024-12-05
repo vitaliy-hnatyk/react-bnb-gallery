@@ -3,10 +3,8 @@ export const DIRECTION_NEXT = 'next';
 
 export const POINTER_TYPE_TOUCH = 'touch';
 export const POINTER_TYPE_PEN = 'pen';
-
 export const FORWARDS = 'forwards';
 export const BACKWARDS = 'backwards';
-
 export const ARROW_LEFT_KEYCODE = 37;
 export const ARROW_RIGHT_KEYCODE = 39;
 export const ESC_KEYCODE = 27;
@@ -27,9 +25,5 @@ export const INVERSE_COLOR = 'rgba(1,1,1,1)';
 export const DEFAULT_Z_INDEX = 2000;
 
 export const defaultPhotoProps = {
-  photo: undefined,
-  number: undefined,
-  caption: undefined,
-  subcaption: undefined,
-  thumbnail: undefined,
+  photo: undefined, number: undefined, caption: undefined, subcaption: undefined, thumbnail: undefined,
 };
