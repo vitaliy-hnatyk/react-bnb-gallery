@@ -165,8 +165,7 @@ class ReactBnbGallery extends Component {
     return (
       <Portal>
         <FocusTrap>
-          <div
-            className={classnames([
+          <div className={classnames([
               'gallery-modal',
               light && 'mode-light',
             ])}
@@ -175,19 +174,14 @@ class ReactBnbGallery extends Component {
             role="dialog"
             style={modalStyle}
           >
-            <div
-              style={galleryModalOverlayStyles}
-              className="gallery-modal--overlay"
-            />
+            <div style={galleryModalOverlayStyles}
+              className="gallery-modal--overlay"  />
             <div className="gallery-modal--container">
               <div className="gallery-modal--table">
                 <div className="gallery-modal--cell">
                   <div className="gallery-modal--content">
                     <div className="gallery-modal--close">
-                      <CloseButton
-                        onPress={this.close}
-                        light={light}
-                      />
+                      <CloseButton onPress={this.close} light={light}  />
                     </div>
                     <div className="gallery-content">
                       <div className="gallery-top">
